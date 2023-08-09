@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #A8D5E2;
+}
+.container{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.player{
+    
+    margin-top: 150px;
+}
+
+.player div{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 900;
+    color:white;
+}
+.player input{
+    background-color: transparent;
+    box-shadow: none;
+    width: 350px;
+    height: 100px;
+    font-size: 80px; /* Adjust as necessary */
+    padding: 10px; /* You may need some padding */
+    color:white;
+    border: none;
+}
+
+.active p{
+    font-size: 40px;
+}
+.row{
+    display: flex;
+    background-color: #A8D5E2;
+    width: 400px;
+    height: 150px;
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #F9A620;
+    text-align: center;
+    
+}
+.row .cell:nth-child(1) { border-left: none; }
+.row .cell:nth-child(3) { border-right: none; }
+.restart{
+    padding-top: 10px;
+    padding-left: 37%;
+}
+.restart button{
+    height: 50px;
+    width: 100px;
+    background-color:  #FFD449;
+    font-size: large;
+    font-weight: 900;
+    color:white ;
+}
+::placeholder {
+    color: rgba(223, 227, 214, 0.303);
+  }
+
+#title{
+    color: white;
+    transform: rotate(-5deg);
+    font-size: 50px;
+    background-color: #FFD449;
+}
+
+.cell{
+    font-size: 100px;
+    color: white;
+}
